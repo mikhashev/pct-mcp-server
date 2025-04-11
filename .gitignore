@@ -8,7 +8,8 @@ yarn-error.log
 dist/
 
 # Personal data
-data/personal_context.json
+data/*
+!data/.gitkeep
 
 # Environment variables
 .env
