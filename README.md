@@ -19,6 +19,17 @@ Personal Context Technology allows you to structure and manage personal data tha
 - **Context Updates**: Update specific fields via the updateContext tool
 - **Version Tracking**: Maintain history of context changes
 
+## Demo
+
+Watch the Personal Context Technology MCP Server in action:
+
+[![PCT MCP Server Demo](https://img.youtube.com/vi/qzCC5EKUkbc/0.jpg)](https://youtu.be/qzCC5EKUkbc?si=4ppw8s3wj2cuanB8)
+
+The demo shows how to:
+- Access personal context data using the MCP tool
+- Update context information using the updateContext tool
+- See how Claude's responses improve with personalized context
+
 ## Installation
 
 ### Prerequisites

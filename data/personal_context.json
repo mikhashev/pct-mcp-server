@@ -1,256 +1,620 @@
 {
   "basic_info": {
-    "name": "[Your Friend's Name]",
-    "learning_goals": [
-      "Develop expertise in [specific subject area]",
-      "Build a structured knowledge base that connects concepts across domains",
-      "Improve retention and recall of learned material",
-      "Apply knowledge practically to solve real-world problems"
-    ],
-    "learning_style_preferences": [
-      "Visual learning through diagrams and charts",
-      "Active learning through problem-solving",
-      "Conceptual learning that connects ideas"
-    ],
-    "current_knowledge_level": {
-      "beginner": ["Topic A", "Topic B"],
-      "intermediate": ["Topic C", "Topic D"],
-      "advanced": ["Topic E"]
-    }
+    "name": "Mike Shevchenko",
+    "age": 35,
+    "location": "Tomsk Oblast, Russia",
+    "occupation": "Backend Programmer",
+    "project": "personal-context-manager (PCM)",
+    "project_goal": "Develop and promote PCM as a leading open-source tool for personalized AI interactions"
   },
-  
-  "cognitive_profile": {
-    "memory_strengths": [
-      "Visual information retention",
-      "Conceptual understanding"
-    ],
-    "memory_challenges": [
-      "Retaining isolated facts",
-      "Maintaining focus for extended periods"
-    ],
-    "optimal_learning_times": {
-      "peak_focus_hours": ["8:00-10:00", "16:00-18:00"],
-      "review_periods": ["Before sleep", "Early morning"]
-    },
-    "attention_span": {
-      "focused_work": "25 minutes",
-      "optimal_break": "5 minutes",
-      "daily_capacity": "4-5 hours of deep learning"
-    }
-  },
-  
-  "learning_strategies": {
-    "active_recall": {
-      "description": "Testing yourself on material to strengthen neural connections",
-      "implementation": [
-        "Create question sets for each learning session",
-        "Use spaced repetition scheduling for review sessions",
-        "Test knowledge application through problem-solving",
-        "Explain concepts in your own words (Feynman Technique)"
-      ],
-      "tools": [
-        "Anki for flashcard-based recall",
-        "Practice tests and quizzes",
-        "Self-questioning during reading"
-      ]
-    },
-    
-    "spaced_repetition": {
-      "description": "Reviewing information at increasing intervals to optimize retention",
-      "implementation": [
-        "Review new information within 24 hours of first exposure",
-        "Schedule follow-up reviews at 3 days, 1 week, 2 weeks, 1 month",
-        "Increase intervals for well-remembered information",
-        "Decrease intervals for challenging material"
-      ],
-      "tools": [
-        "Anki's built-in spaced repetition algorithm",
-        "Calendar reminders for scheduled reviews",
-        "Learning journal to track review cycles"
-      ]
-    },
-    
-    "elaborative_encoding": {
-      "description": "Connecting new information to existing knowledge",
-      "implementation": [
-        "Create concept maps linking ideas together",
-        "Find real-world applications for theoretical concepts",
-        "Relate new learning to personal experiences",
-        "Identify similarities and differences with known concepts"
-      ],
-      "tools": [
-        "Mind mapping software",
-        "Comparative tables and matrices",
-        "Analogies and metaphors"
-      ]
-    },
-    
-    "cognitive_load_management": {
-      "description": "Optimizing mental effort to facilitate learning",
-      "implementation": [
-        "Break complex topics into manageable chunks",
-        "Focus on understanding fundamentals before details",
-        "Alternate between different types of learning activities",
-        "Scaffold learning with structured frameworks"
-      ],
-      "tools": [
-        "Outlines and learning roadmaps",
-        "Pomodoro technique for focused sessions",
-        "Environmental controls to reduce distractions"
-      ]
-    },
-    
-    "sleep_and_memory": {
-      "description": "Optimizing sleep patterns to enhance memory consolidation",
-      "implementation": [
-        "Review important material shortly before sleep",
-        "Maintain consistent sleep schedule",
-        "Prioritize quality sleep (7-9 hours) for memory consolidation",
-        "Schedule challenging learning in the morning"
-      ],
-      "tools": [
-        "Sleep tracking app",
-        "Pre-sleep review routine",
-        "Morning review of previous day's learning"
-      ]
-    }
-  },
-  
-  "ai_integration": {
-    "ai_strengths_for_learning": [
-      "Providing diverse explanations of difficult concepts",
-      "Generating practice questions and scenarios",
-      "Offering structured frameworks for complex topics",
-      "Helping identify knowledge gaps",
-      "Assisting with knowledge synthesis and connections"
-    ],
-    
-    "ai_limitations": {
-      "context_limitations": {
-        "description": "LLMs have a limited context window (working memory)",
-        "implications": [
-          "Cannot maintain awareness of entire learning history",
-          "May miss connections across separate conversations",
-          "Needs frequent reminders of learning context"
-        ],
-        "mitigation": [
-          "Regularly update this context file with new learning",
-          "Reference previous conversations explicitly",
-          "Chunk learning topics for focused AI interactions"
-        ]
+  "project_info": {
+    "name": "personal-context-manager",
+    "github_url": "https://github.com/mikhashev/personal-context-manager",
+    "description": "A technology for personalizing AI interactions using structured data with mandatory instruction blocks, enabling long-term memory between sessions.",
+    "current_status": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details. Reviewed the NeuroPlay website and documentation on April 11, 2025, confirming the NeuroPlay 8Cap's suitability for PCM integration, with API access to raw EEG data, rhythms, and pre-processed metrics (meditation, concentration). Ordered the NeuroPlay 8Cap on April 10, 2025. Received confirmation from NeuroPlay on April 11, 2025, that they will prioritize shipping the complete set. They suggested downloading their EEG generator software to begin integration work before the physical device arrives. Created and published \"PCT MCP Server Demo: Personalized AI Interactions with Claude Integration\" YouTube video on April 11, 2025, demonstrating core functionality. Optimized YouTube channel with three strategic playlists: \"Personal Context Technology Demos\", \"Neural Interface Integrations\", and \"AI Personalization Tools\".",
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Expand community",
+        "description": "Attract 100 active contributors on GitHub by the end of 2025.",
+        "status": "In progress",
+        "deadline": "2025-12-31"
       },
-      
-      "hallucinations": {
-        "description": "LLMs can generate plausible but incorrect information",
-        "implications": [
-          "Cannot be solely relied upon for factual accuracy",
-          "May introduce misconceptions if not verified",
-          "Confidence in response is not correlated with accuracy"
-        ],
-        "mitigation": [
-          "Verify important facts from authoritative sources",
-          "Ask AI to provide reasoning and evidence",
-          "Use AI primarily for learning methods rather than as the sole source of facts",
-          "Request citations when asking for factual information"
-        ]
+      {
+        "id": 2,
+        "title": "Release new templates",
+        "description": "Publish 5 new context templates (e.g., for automation, education, productivity) by mid-2026.",
+        "status": "Planned",
+        "deadline": "2026-06-30"
       },
-      
-      "knowledge_cutoff": {
-        "description": "LLMs have a training cutoff date with no newer information",
-        "implications": [
-          "May lack awareness of recent developments",
-          "Cannot provide up-to-date research or findings"
-        ],
-        "mitigation": [
-          "Supplement AI guidance with recent literature",
-          "Use web search when discussing evolving topics",
-          "Update context file with recent findings"
-        ]
+      {
+        "id": 3,
+        "title": "Secure funding",
+        "description": "Obtain a grant or sponsorship (e.g., from Canadian IT companies) after moving to Canada in 2027.",
+        "status": "Planned",
+        "deadline": "2027-12-31"
+      },
+      {
+        "id": 4,
+        "title": "Expand neural interface integrations",
+        "description": "Develop additional integrations with EEG-based neural interface providers to enhance AI personalization capabilities. Confirmed compatibility with NeuroPlay 8Cap and planning integration.",
+        "status": "In progress",
+        "deadline": "2025-09-30"
+      },
+      {
+        "id": 5,
+        "title": "Complete self-improving context documentation",
+        "description": "Integrate theoretical framework, visual diagrams, and implementation examples with comprehensive benchmarking data.",
+        "status": "In progress",
+        "deadline": "2025-05-15"
+      },
+      {
+        "id": 6,
+        "title": "Increase X engagement through thought leader interactions",
+        "description": "Engage with at least 3 thought leaders in the AI space on X to boost PCM visibility, targeting a total of 10,000 impressions by July 2025. Engaged with Andrew Jefferson (@EastlondonDev) and Sigurd Schacht & Carsten Lanquillon (@drschacht, @lanqui).",
+        "status": "In progress",
+        "deadline": "2025-07-31"
+      }
+    ],
+    "challenges": [
+      {
+        "id": 1,
+        "description": "Limited visibility of the project in the open-source community.",
+        "priority": "High"
+      },
+      {
+        "id": 2,
+        "description": "Risk of digital control and potential ban of open-source tools in Russia by 2030.",
+        "priority": "Medium"
+      },
+      {
+        "id": 3,
+        "description": "Balancing project development with full-time work and family responsibilities.",
+        "priority": "Medium"
+      },
+      {
+        "id": 4,
+        "description": "Maintaining privacy while effectively promoting the project across international platforms.",
+        "priority": "High"
+      }
+    ],
+    "key_integrations": [
+      {
+        "name": "Claude",
+        "status": "Implemented",
+        "description": "MCP server integration enabling persistent context sharing"
+      },
+      {
+        "name": "Manus AI",
+        "status": "Partner",
+        "description": "Social network with Personal Context Technology integration"
+      },
+      {
+        "name": "Neural Interfaces",
+        "status": "In progress (code-level only, not tested with physical devices)",
+        "description": "Integration framework with EEG devices from Muse, EMOTIV, and OpenBCI"
+      },
+      {
+        "name": "Grok",
+        "status": "Used for research",
+        "description": "DeepSearch integration for market and technical research"
+      }
+    ],
+    "market_insights": {
+      "potential_market_size": "$3-7 billion for data management tools by 2027",
+      "startup_landscape": "200-300 startups in this space between 2025-2028",
+      "funding_projection": "$1.5-2.5 billion in venture capital over three years",
+      "unicorn_potential": "3-5 unicorns in this category by 2030",
+      "current_metrics": {
+        "github_stars": 44,
+        "forks": 3,
+        "contributors": 1,
+        "discussions": 4,
+        "highest_post_impressions": 1200,
+        "watchers": 5,
+        "total_views": 1954,
+        "unique_visitors": 581,
+        "total_clones": 37,
+        "unique_cloners": 27,
+        "measurement_period": "March 28 - April 10, 2025"
       }
     },
-    
-    "effective_prompting": {
-      "learning_prompts": [
-        "Explain [concept] using multiple analogies from different domains",
-        "Generate a set of practice questions that test application of [concept]",
-        "Create a framework for understanding the relationship between [concept A] and [concept B]",
-        "What are common misconceptions about [topic] and how can I avoid them?",
-        "How would you structure a learning plan for mastering [topic] in [timeframe]?"
-      ],
-      "metacognitive_prompts": [
-        "What questions should I be asking myself to deepen my understanding of [topic]?",
-        "What mental models would be most useful for thinking about [domain]?",
-        "How can I test whether I truly understand [concept] versus just recognizing it?",
-        "What would be effective ways to connect [new concept] to [existing knowledge]?"
-      ],
-      "retrieval_practice_prompts": [
-        "Based on our previous discussions about [topic], what concepts do you think I should review?",
-        "Can you generate a mini-quiz about [topic] we discussed [timeframe] ago?",
-        "What connections exist between [previous topic] and [current topic]?"
-      ]
-    }
-  },
-  
-  "learning_progress": {
-    "current_focus": {
-      "topic": "[Current Learning Topic]",
-      "resources": ["[Resource 1]", "[Resource 2]"],
-      "started": "[Start Date]",
-      "target_completion": "[Target Date]",
-      "key_milestones": [
+    "key_features": [
+      {
+        "name": "Self-improving context framework",
+        "status": "Implemented",
+        "description": "Framework enabling contexts to evolve based on usage patterns and neural feedback"
+      },
+      {
+        "name": "Structured data with mandatory instructions",
+        "status": "Implemented",
+        "description": "Core technology enabling context preservation between AI sessions"
+      },
+      {
+        "name": "EEG-based neurointerface integration",
+        "status": "Released in v1.0.2 (code-level only, not tested with physical devices)",
+        "description": "Framework for AI systems to adapt based on real-time neurological state"
+      },
+      {
+        "name": "Self-education system",
+        "status": "Released",
+        "description": "Neuroscience-informed templates optimizing AI-assisted learning"
+      },
+      {
+        "name": "MCP Server",
+        "status": "Released",
+        "description": "Enables Claude to use persistent, private personal data for better responses"
+      },
+      {
+        "name": "Learning roadmap templates",
+        "status": "Released example",
+        "description": "Structured learning paths for AI-assisted education"
+      }
+    ],
+    "audience_metrics": {
+      "total_impressions": 18263,
+      "total_engagements": 1125,
+      "overall_engagement_rate": "6.16%",
+      "follower_growth": {
+        "new_follows": 42,
+        "unfollows": 4,
+        "net_growth": 38
+      },
+      "top_performing_posts": [
         {
-          "milestone": "[Milestone 1]",
-          "status": "completed/in progress/planned",
-          "notes": "[Any observations or insights]"
+          "topic": "Personal AI-assisted learning",
+          "impressions": 2681,
+          "engagement_rate": "3.73%"
+        },
+        {
+          "topic": "ManusAI integration with PCM",
+          "impressions": 1504,
+          "engagement_rate": "10.84%"
+        },
+        {
+          "topic": "Neurointerface integration framework",
+          "impressions": 462,
+          "engagement_rate": "16.02%"
+        },
+        {
+          "topic": "Self-education template release",
+          "impressions": 1294,
+          "engagement_rate": "4.71%"
+        },
+        {
+          "topic": "Knowledge Science podcast feature",
+          "impressions": 100,
+          "engagement_rate": "10.00%"
         }
-      ]
+      ],
+      "measurement_period": "March 11 - April 10, 2025"
     },
-    
-    "completed_topics": [
+    "growth_targets": {
+      "follower_growth": {
+        "current": 38,
+        "monthly_target": 50,
+        "annual_target": 600
+      },
+      "engagement_rate": {
+        "current": "6.16%",
+        "target": "8.5%"
+      },
+      "github_stars": {
+        "current": 44,
+        "monthly_target": 25,
+        "annual_target": 300
+      },
+      "content_performance": {
+        "current_top_impressions": 2681,
+        "target_impressions": 5000
+      }
+    },
+    "key_integrations[3]": "{\"name\": \"NeuroPlay\", \"status\": \"Ordered\", \"description\": \"8Cap EEG device with API access to raw EEG data, rhythms, and pre-processed metrics ordered on April 10, 2025\"}"
+  },
+  "preferences": {
+    "communication_style": "Concise and technical",
+    "communication_language_preference": "Russian preferred when possible, otherwise English (confirmed English for current collaboration with 'suivre le courant' as they do not speak Russian)",
+    "preferred_tools": "[\"GitHub\", \"X (Twitter)\", \"Reddit\", \"Habr\", \"YouTube\"]",
+    "working_hours": "8:00 AM - 2:00 PM, 8:00 PM - 10:00 PM (UTC+7, Tomsk Oblast Time)",
+    "focus_times": [
+      "9:00 AM - 12:00 PM (UTC+7)",
+      "8:00 PM - 9:00 PM (UTC+7)"
+    ],
+    "energy_levels": {
+      "morning": "High",
+      "afternoon": "Low",
+      "evening": "Medium"
+    },
+    "social_media_strategy": {
+      "high_performing_content": [
+        "Neurointerface integrations (16.67% engagement rate)",
+        "Technical integration posts (15.69% engagement rate)",
+        "MCP server announcements (15.19% engagement rate)",
+        "EEG device compatibility (13.64% engagement rate)",
+        "Framework updates (9.10% engagement rate)"
+      ],
+      "engagement_targets": [
+        "AI development community",
+        "Neural interface providers",
+        "Open source contributors",
+        "Educational technology enthusiasts"
+      ],
+      "optimal_posting_days": {
+        "highest_impressions": "Saturday (1,113 avg)",
+        "highest_engagement": "Thursday (62.33 avg)",
+        "balanced_performance": "Monday (940 impressions, 50 engagements)"
+      },
+      "content_structure": {
+        "format": "Direct statements outperform questions (8.66 vs 2.12 avg engagements)",
+        "hashtags": "Use sparingly (posts without hashtags receive 136.31 vs 62.17 avg impressions)",
+        "links": "Include consistently with every post"
+      },
+      "content_schedule": {
+        "X": "3-4 posts per week prioritizing Thursdays and Saturdays",
+        "Habr": "1 technical article every 2-3 weeks",
+        "Reddit": "Weekly engagement in relevant communities",
+        "GitHub": "Documentation updates with each feature release",
+        "YouTube": "1 PCM-focused video every 1-2 weeks, prioritizing technical demos, tutorials, and educational content about neural interfaces and AI personalization"
+      }
+    },
+    "profile_links": {
+      "x_twitter": "https://x.com/mikeshev4enko",
+      "habr": "https://habr.com/ru/users/mikhashev/",
+      "github": "https://github.com/mikhashev/personal-context-manager",
+      "youtube": "https://www.youtube.com/@mikhashev"
+    }
+  },
+  "goals": {
+    "short_term": "[{\"id\": 1, \"description\": \"Publish a post on X about the first donation to attract more supporters.\", \"deadline\": \"2025-04-07\", \"status\": \"Completed\"}, {\"id\": 2, \"description\": \"Create and publish a new context template for automation of programming tasks by the end of April 2025.\", \"deadline\": \"2025-04-30\", \"status\": \"Planned\"}, {\"id\": 3, \"description\": \"Enhance GitHub documentation with visual examples showing PCM's integration with Claude and other AI platforms.\", \"deadline\": \"2025-04-15\", \"status\": \"In progress\"}, {\"id\": 4, \"description\": \"Publish announcement about PCM neurointerface capabilities on X during Thursday peak engagement window, highlighting Muse, EMOTIV, and OpenBCI integrations.\", \"deadline\": \"2025-04-11\", \"status\": \"Planned\"}, {\"id\": 5, \"description\": \"Create and publish content highlighting neurological interface integration and educational use cases on Habr and Reddit.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 6, \"description\": \"Create a Habr article focusing on framework integration with neural interfaces, which has shown 9-16% engagement rates on X.\", \"deadline\": \"2025-04-25\", \"status\": \"Planned\"}, {\"id\": 7, \"description\": \"Create detailed benchmarking document to substantiate key performance claims about the PCM technology.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 8, \"description\": \"Initiate text-based collaboration with a user leveraging 4 H100 GPUs to test PCM in a high-compute ML environment, documenting outcomes for future content.\", \"deadline\": \"2025-05-15\", \"status\": \"Completed\"}, {\"id\": 9, \"description\": \"Create a text-based demo with visuals (screenshots or diagrams) showcasing PCM's use case for ML beginners, such as managing a simple experiment with self-education templates.\", \"deadline\": \"2025-04-20\", \"status\": \"Completed\"}, {\"id\": 10, \"description\": \"Create a standalone X post summarizing the discussion with Andrew Jefferson (@EastlondonDev) on AI and neurointerfaces, including a link to PCM's GitHub repo to increase visibility.\", \"deadline\": \"2025-04-12\", \"status\": \"Completed\"}, {\"id\": 11, \"description\": \"Monitor the performance of the X post about the *Knowledge Science* podcast feature (posted on April 10, 2025) and update audience metrics with impressions, engagements, and follower growth.\", \"deadline\": \"2025-04-17\", \"status\": \"Planned\"}, {\"id\": 12, \"description\": \"Review the NeuroPlay website (neuroassist.tech) to extract technical details about the NeuroPlay 8Cap, including SDK/API availability, data format, real-time streaming, OS compatibility, and usage restrictions.\", \"deadline\": \"2025-04-15\", \"status\": \"Completed\"}, {\"id\": 13, \"description\": \"Follow up with NeuroPlay if the website does not provide sufficient technical details for integrating the NeuroPlay 8Cap with PCM, requesting specific answers to the original inquiry.\", \"deadline\": \"2025-04-20\", \"status\": \"Not Needed\"}, {\"id\": 14, \"description\": \"Purchase the NeuroPlay 8Cap device for integration with PCM, ensuring delivery and setup.\", \"deadline\": \"2025-04-20\", \"status\": \"In progress\"}, {\"id\": 15, \"description\": \"Begin integrating the NeuroPlay 8Cap with PCM using the NeuroPlayPro API, starting with accessing raw EEG data and pre-processed metrics (meditation, concentration) for personalization.\", \"deadline\": \"2025-05-15\", \"status\": \"Planned\"}, {\"id\": 16, \"description\": \"Create and submit a high-quality article for the Habr 'Сезон Open Source' contest demonstrating NeuroPlay 8Cap integration with PCM, aiming to win first place.\", \"deadline\": \"2025-05-22\", \"status\": \"Planned\"}, {\"id\": 17, \"description\": \"Regularly monitor and analyze other contest entries with the tag # Сезон open source to identify top competitors, successful formats, and content strategies.\", \"deadline\": \"2025-05-22\", \"status\": \"Planned\"}]",
+    "medium_term": "[{\"id\": 1, \"description\": \"Move to Saskatoon, Canada, to continue developing PCM in a safer environment.\", \"deadline\": \"2026-12-31\", \"status\": \"In progress\"}, {\"id\": 2, \"description\": \"Attract 100 active contributors to PCM on GitHub.\", \"deadline\": \"2025-12-31\", \"status\": \"In progress\"}, {\"id\": 4, \"description\": \"Build dedicated PCM community to support growth targets of 50 monthly followers and 8.5% engagement rate through consistent neurointerface and integration content.\", \"deadline\": \"2025-07-31\", \"status\": \"Planned\"}, {\"id\": 5, \"description\": \"Create a video demo of PCM's use case (e.g., managing an ML experiment or using self-education templates), with text narration to avoid speaking, to enhance project visibility.\", \"deadline\": \"2025-04-12\", \"status\": \"In progress\"}, {\"id\": 6, \"description\": \"Leverage Habr contest participation to significantly increase PCM project visibility in the Russian-speaking open-source community and attract new contributors.\", \"deadline\": \"2025-06-30\", \"status\": \"Planned\"}]",
+    "long_term": [
       {
-        "topic": "[Completed Topic]",
-        "completion_date": "[Date]",
-        "mastery_level": "basic/intermediate/advanced",
-        "key_insights": ["[Insight 1]", "[Insight 2]"],
-        "areas_for_review": ["[Area 1]", "[Area 2]"]
+        "id": 1,
+        "description": "Establish PCM as a leading open-source tool for personalized AI, with a global community of 10,000 users by 2030.",
+        "deadline": "2030-12-31",
+        "status": "Planned"
+      },
+      {
+        "id": 2,
+        "description": "Secure funding or sponsorship to sustain PCM development after moving to Canada.",
+        "deadline": "2027-12-31",
+        "status": "Planned"
+      },
+      {
+        "id": 3,
+        "description": "Research the safety of Saskatoon and Calgary for relocation and living, using Reddit, Discord, and other available resources to make an informed decision.",
+        "deadline": "2025-05-30",
+        "status": "Planned"
       }
     ],
-    
-    "knowledge_connections": [
-      {
-        "topics": ["[Topic A]", "[Topic B]"],
-        "relationship": "[How these topics connect]",
-        "application": "[How this connection is useful]"
-      }
+    "medium_term[4]": {
+      "status": "Completed"
+    },
+    "short_term[9]": {
+      "status": "Completed"
+    },
+    "short_term[14]": {
+      "status": "In progress"
+    },
+    "short_term[0]": {
+      "status": "Completed"
+    },
+    "short_term[8]": {
+      "status": "Completed"
+    },
+    "short_term[18]": "{\"id\": 18, \"description\": \"Download and explore the NeuroPlay EEG generator software to begin preliminary integration with PCM while waiting for the physical device to arrive.\", \"deadline\": \"2025-04-15\", \"status\": \"Planned\"}",
+    "short_term[19]": "{\"id\": 19, \"description\": \"Maintain consistent YouTube publication schedule with at least one PCM-focused video every 1-2 weeks to build audience and increase project visibility.\", \"deadline\": \"2025-06-30\", \"status\": \"Planned\"}",
+    "medium_term[6]": "{\"id\": 7, \"description\": \"Build a YouTube audience of at least 250 subscribers specifically interested in Personal Context Technology, neural interfaces, and AI personalization through consistent content strategy.\", \"deadline\": \"2025-09-30\", \"status\": \"Planned\"}",
+    "medium_term[5]": {
+      "status": "Completed"
+    }
+  },
+  "instruction": {
+    "primary": "Use this context to assist me in developing and promoting the personal-context-manager (PCM) project. Provide actionable suggestions to achieve my goals, address challenges, and manage my time effectively.",
+    "context_update": "Update project milestones and goals when new progress is reported (e.g., new donations, contributors, or completed tasks). Suggest adding new milestones based on project growth.",
+    "privacy": "All project-related information is public, except for personal financial details (e.g., donation amounts, wallet addresses) and location, which are private.",
+    "special_rules": [
+      "Prioritize tasks that align with my focus times (9:00 AM - 12:00 PM, 8:00 PM - 9:00 PM).",
+      "Suggest social media strategies to increase PCM visibility while minimizing risks (e.g., avoid revealing sensitive financial details, personal data details).",
+      "Provide recommendations for engaging with the open-source community in Canada after my move in 2026.",
+      "For the safety research task, summarize findings from Reddit, Discord, and other resources, focusing on crime rates, community sentiment, and specific areas to avoid in Saskatoon and Calgary.",
+      "When I propose ideas or questions similar to engaging high-profile individuals (e.g., on social media platforms like X), always assess the potential risks and benefits. Provide a detailed explanation of why the idea is good or bad, considering factors such as project stage, visibility, privacy concerns, time management, and alignment with my goals and social media strategy.",
+      "Always verify the implementation status of features before making public statements or documentation updates. Distinguish between features that exist in code only and those tested with actual hardware/devices.",
+      "For neural interface integrations, always be explicit about which hardware devices have been physically tested versus which integrations exist at code level only.",
+      "Before publishing any content, project updates, or documentation changes, present a verification checklist for any claims or statements that require factual confirmation.",
+      "When proposing additions to project documentation, include explicit notes about implementation status and testing level (theoretical, code-only, or tested with real hardware).",
+      "Always err on the side of transparency when describing project capabilities, especially regarding hardware integrations and external system compatibility.",
+      "Present a pre-publication review for any content that contains specific technical claims about compatibility, integration status, or implementation completeness.",
+      "Maintain a clear distinction between framework design/architecture and proven implementation with physical testing in all communication about the project."
     ]
   },
-  
-  "instruction": {
-    "primary": "Use this context to provide personalized learning guidance that accounts for my cognitive profile, preferred learning strategies, and current knowledge level. Help me implement evidence-based learning techniques with a focus on long-term retention and practical application.",
-    
-    "learning_support": {
-      "explanations": "Provide explanations that connect to my existing knowledge and learning style preferences",
-      "practice": "Generate questions and scenarios that employ active recall and application of concepts",
-      "metacognition": "Help me reflect on my learning process and identify strategies for improvement",
-      "connections": "Identify relationships between new concepts and previously learned material"
-    },
-    
-    "context_update": "When I share new learning progress or insights, suggest specific updates to this context file to maintain its relevance. Ask questions to clarify my learning experiences when needed.",
-    
-    "verification_protocol": "For factual information, provide reasoning and evidence for your responses. Clearly indicate when information might be uncertain or when verification from other sources would be beneficial.",
-    
-    "adaptive_approach": "Adjust your support based on my reported progress and challenges. If I'm struggling with a concept, offer alternative explanations or approaches tailored to my cognitive profile."
-  },
-  
   "metadata": {
-    "version": "1.0",
-    "created": "2025-03-25",
-    "last_updated": "2025-03-25",
-    "update_history": [
+    "version": "1.4",
+    "last_updated": "2025-04-11T16:24:29.007Z",
+    "change_history": [
       {
-        "date": "2025-03-25",
-        "changes": "Initial creation",
-        "updated_by": "User"
+        "path": "preferences.profile_links.youtube",
+        "new_value": "https://www.youtube.com/@mikhashev",
+        "reason": "Adding YouTube channel link to profile links for a complete listing of your online presence related to the PCM project.",
+        "timestamp": "2025-04-11T16:24:29.007Z"
+      },
+      {
+        "path": "goals.medium_term[5].status",
+        "new_value": "Completed",
+        "reason": "Marking the goal of creating a video demo as completed, since the PCT MCP Server Demo video has been created and published on YouTube, successfully demonstrating PCM's use case with text narration to avoid speaking.",
+        "timestamp": "2025-04-11T16:24:25.936Z"
+      },
+      {
+        "path": "preferences.social_media_strategy.content_schedule.YouTube",
+        "new_value": "1 PCM-focused video every 1-2 weeks, prioritizing technical demos, tutorials, and educational content about neural interfaces and AI personalization",
+        "reason": "Adding a specific content schedule for YouTube to complement existing social media strategy for other platforms, focusing on consistent PCM-related content publishing.",
+        "timestamp": "2025-04-11T16:24:22.488Z"
+      },
+      {
+        "path": "preferences.preferred_tools",
+        "previous_value": [
+          "GitHub",
+          "X (Twitter)",
+          "Reddit",
+          "Habr"
+        ],
+        "new_value": "[\"GitHub\", \"X (Twitter)\", \"Reddit\", \"Habr\", \"YouTube\"]",
+        "reason": "Adding YouTube to the list of preferred tools for project promotion, as we've now established a structured approach to using the platform for PCM content.",
+        "timestamp": "2025-04-11T16:24:18.629Z"
+      },
+      {
+        "path": "goals.medium_term[6]",
+        "new_value": "{\"id\": 7, \"description\": \"Build a YouTube audience of at least 250 subscribers specifically interested in Personal Context Technology, neural interfaces, and AI personalization through consistent content strategy.\", \"deadline\": \"2025-09-30\", \"status\": \"Planned\"}",
+        "reason": "Adding a medium-term goal for building a dedicated YouTube audience for the PCM project to complement existing promotion strategies on other platforms like GitHub, X, Reddit, and Habr.",
+        "timestamp": "2025-04-11T16:24:14.980Z"
+      },
+      {
+        "path": "goals.short_term[19]",
+        "new_value": "{\"id\": 19, \"description\": \"Maintain consistent YouTube publication schedule with at least one PCM-focused video every 1-2 weeks to build audience and increase project visibility.\", \"deadline\": \"2025-06-30\", \"status\": \"Planned\"}",
+        "reason": "Adding a new short-term goal related to YouTube content strategy for consistent promotion of the PCM project based on our discussion about creating a content calendar with regular PCM-focused videos.",
+        "timestamp": "2025-04-11T16:24:10.672Z"
+      },
+      {
+        "path": "project_info.current_status",
+        "previous_value": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details. Reviewed the NeuroPlay website and documentation on April 11, 2025, confirming the NeuroPlay 8Cap's suitability for PCM integration, with API access to raw EEG data, rhythms, and pre-processed metrics (meditation, concentration). Ordered the NeuroPlay 8Cap on April 10, 2025. Received confirmation from NeuroPlay on April 11, 2025, that they will prioritize shipping the complete set. They suggested downloading their EEG generator software to begin integration work before the physical device arrives.",
+        "new_value": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details. Reviewed the NeuroPlay website and documentation on April 11, 2025, confirming the NeuroPlay 8Cap's suitability for PCM integration, with API access to raw EEG data, rhythms, and pre-processed metrics (meditation, concentration). Ordered the NeuroPlay 8Cap on April 10, 2025. Received confirmation from NeuroPlay on April 11, 2025, that they will prioritize shipping the complete set. They suggested downloading their EEG generator software to begin integration work before the physical device arrives. Created and published \"PCT MCP Server Demo: Personalized AI Interactions with Claude Integration\" YouTube video on April 11, 2025, demonstrating core functionality. Optimized YouTube channel with three strategic playlists: \"Personal Context Technology Demos\", \"Neural Interface Integrations\", and \"AI Personalization Tools\".",
+        "reason": "Adding information about the newly created YouTube video demonstration of PCT MCP Server and channel optimization with strategic playlists to showcase the project.",
+        "timestamp": "2025-04-11T16:24:06.064Z"
+      },
+      {
+        "path": "goals.short_term[18]",
+        "new_value": "{\"id\": 18, \"description\": \"Download and explore the NeuroPlay EEG generator software to begin preliminary integration with PCM while waiting for the physical device to arrive.\", \"deadline\": \"2025-04-15\", \"status\": \"Planned\"}",
+        "reason": "Added a new short-term goal based on the suggestion from NeuroPlay's project manager to use their EEG generator software for preliminary integration work.",
+        "timestamp": "2025-04-11T10:28:11.672Z"
+      },
+      {
+        "path": "project_info.current_status",
+        "previous_value": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details. Reviewed the NeuroPlay website and documentation on April 11, 2025, confirming the NeuroPlay 8Cap's suitability for PCM integration, with API access to raw EEG data, rhythms, and pre-processed metrics (meditation, concentration). Planning to purchase the NeuroPlay 8Cap and begin integration.",
+        "new_value": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details. Reviewed the NeuroPlay website and documentation on April 11, 2025, confirming the NeuroPlay 8Cap's suitability for PCM integration, with API access to raw EEG data, rhythms, and pre-processed metrics (meditation, concentration). Ordered the NeuroPlay 8Cap on April 10, 2025. Received confirmation from NeuroPlay on April 11, 2025, that they will prioritize shipping the complete set. They suggested downloading their EEG generator software to begin integration work before the physical device arrives.",
+        "reason": "Updated current status to include details about ordering the NeuroPlay 8Cap and the response from the NeuroPlay project manager offering prioritized shipping and suggesting using their EEG generator software for preliminary integration work.",
+        "timestamp": "2025-04-11T10:28:07.733Z"
+      },
+      {
+        "path": "goals.medium_term",
+        "previous_value": [
+          {
+            "id": 1,
+            "description": "Move to Saskatoon, Canada, to continue developing PCM in a safer environment.",
+            "deadline": "2026-12-31",
+            "status": "In progress"
+          },
+          {
+            "id": 2,
+            "description": "Attract 100 active contributors to PCM on GitHub.",
+            "deadline": "2025-12-31",
+            "status": "In progress"
+          },
+          {
+            "id": 4,
+            "description": "Build dedicated PCM community to support growth targets of 50 monthly followers and 8.5% engagement rate through consistent neurointerface and integration content.",
+            "deadline": "2025-07-31",
+            "status": "Planned"
+          },
+          {
+            "id": 5,
+            "description": "Create a video demo of PCM's use case (e.g., managing an ML experiment or using self-education templates), with text narration to avoid speaking, to enhance project visibility.",
+            "deadline": "2025-04-12",
+            "status": "In progress"
+          }
+        ],
+        "new_value": "[{\"id\": 1, \"description\": \"Move to Saskatoon, Canada, to continue developing PCM in a safer environment.\", \"deadline\": \"2026-12-31\", \"status\": \"In progress\"}, {\"id\": 2, \"description\": \"Attract 100 active contributors to PCM on GitHub.\", \"deadline\": \"2025-12-31\", \"status\": \"In progress\"}, {\"id\": 4, \"description\": \"Build dedicated PCM community to support growth targets of 50 monthly followers and 8.5% engagement rate through consistent neurointerface and integration content.\", \"deadline\": \"2025-07-31\", \"status\": \"Planned\"}, {\"id\": 5, \"description\": \"Create a video demo of PCM's use case (e.g., managing an ML experiment or using self-education templates), with text narration to avoid speaking, to enhance project visibility.\", \"deadline\": \"2025-04-12\", \"status\": \"In progress\"}, {\"id\": 6, \"description\": \"Leverage Habr contest participation to significantly increase PCM project visibility in the Russian-speaking open-source community and attract new contributors.\", \"deadline\": \"2025-06-30\", \"status\": \"Planned\"}]",
+        "reason": "Added a new medium-term goal to leverage the Habr contest participation for broader visibility and contributor growth within the Russian-speaking open source community.",
+        "timestamp": "2025-04-11T08:32:10.693Z"
+      },
+      {
+        "path": "goals.short_term",
+        "previous_value": "[{\"id\": 1, \"description\": \"Publish a post on X about the first donation to attract more supporters.\", \"deadline\": \"2025-04-07\", \"status\": \"Completed\"}, {\"id\": 2, \"description\": \"Create and publish a new context template for automation of programming tasks by the end of April 2025.\", \"deadline\": \"2025-04-30\", \"status\": \"Planned\"}, {\"id\": 3, \"description\": \"Enhance GitHub documentation with visual examples showing PCM's integration with Claude and other AI platforms.\", \"deadline\": \"2025-04-15\", \"status\": \"In progress\"}, {\"id\": 4, \"description\": \"Publish announcement about PCM neurointerface capabilities on X during Thursday peak engagement window, highlighting Muse, EMOTIV, and OpenBCI integrations.\", \"deadline\": \"2025-04-11\", \"status\": \"Planned\"}, {\"id\": 5, \"description\": \"Create and publish content highlighting neurological interface integration and educational use cases on Habr and Reddit.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 6, \"description\": \"Create a Habr article focusing on framework integration with neural interfaces, which has shown 9-16% engagement rates on X.\", \"deadline\": \"2025-04-25\", \"status\": \"Planned\"}, {\"id\": 7, \"description\": \"Create detailed benchmarking document to substantiate key performance claims about the PCM technology.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 8, \"description\": \"Initiate text-based collaboration with a user leveraging 4 H100 GPUs to test PCM in a high-compute ML environment, documenting outcomes for future content.\", \"deadline\": \"2025-05-15\", \"status\": \"Completed\"}, {\"id\": 9, \"description\": \"Create a text-based demo with visuals (screenshots or diagrams) showcasing PCM's use case for ML beginners, such as managing a simple experiment with self-education templates.\", \"deadline\": \"2025-04-20\", \"status\": \"Completed\"}, {\"id\": 10, \"description\": \"Create a standalone X post summarizing the discussion with Andrew Jefferson (@EastlondonDev) on AI and neurointerfaces, including a link to PCM's GitHub repo to increase visibility.\", \"deadline\": \"2025-04-12\", \"status\": \"Completed\"}, {\"id\": 11, \"description\": \"Monitor the performance of the X post about the *Knowledge Science* podcast feature (posted on April 10, 2025) and update audience metrics with impressions, engagements, and follower growth.\", \"deadline\": \"2025-04-17\", \"status\": \"Planned\"}, {\"id\": 12, \"description\": \"Review the NeuroPlay website (neuroassist.tech) to extract technical details about the NeuroPlay 8Cap, including SDK/API availability, data format, real-time streaming, OS compatibility, and usage restrictions.\", \"deadline\": \"2025-04-15\", \"status\": \"Completed\"}, {\"id\": 13, \"description\": \"Follow up with NeuroPlay if the website does not provide sufficient technical details for integrating the NeuroPlay 8Cap with PCM, requesting specific answers to the original inquiry.\", \"deadline\": \"2025-04-20\", \"status\": \"Not Needed\"}, {\"id\": 14, \"description\": \"Purchase the NeuroPlay 8Cap device for integration with PCM, ensuring delivery and setup.\", \"deadline\": \"2025-04-20\", \"status\": \"In progress\"}, {\"id\": 15, \"description\": \"Begin integrating the NeuroPlay 8Cap with PCM using the NeuroPlayPro API, starting with accessing raw EEG data and pre-processed metrics (meditation, concentration) for personalization.\", \"deadline\": \"2025-05-15\", \"status\": \"Planned\"}, {\"id\": 16, \"description\": \"Create and submit a high-quality article for the Habr 'Сезон Open Source' contest demonstrating NeuroPlay 8Cap integration with PCM, aiming to win first place.\", \"deadline\": \"2025-05-22\", \"status\": \"Planned\"}]",
+        "new_value": "[{\"id\": 1, \"description\": \"Publish a post on X about the first donation to attract more supporters.\", \"deadline\": \"2025-04-07\", \"status\": \"Completed\"}, {\"id\": 2, \"description\": \"Create and publish a new context template for automation of programming tasks by the end of April 2025.\", \"deadline\": \"2025-04-30\", \"status\": \"Planned\"}, {\"id\": 3, \"description\": \"Enhance GitHub documentation with visual examples showing PCM's integration with Claude and other AI platforms.\", \"deadline\": \"2025-04-15\", \"status\": \"In progress\"}, {\"id\": 4, \"description\": \"Publish announcement about PCM neurointerface capabilities on X during Thursday peak engagement window, highlighting Muse, EMOTIV, and OpenBCI integrations.\", \"deadline\": \"2025-04-11\", \"status\": \"Planned\"}, {\"id\": 5, \"description\": \"Create and publish content highlighting neurological interface integration and educational use cases on Habr and Reddit.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 6, \"description\": \"Create a Habr article focusing on framework integration with neural interfaces, which has shown 9-16% engagement rates on X.\", \"deadline\": \"2025-04-25\", \"status\": \"Planned\"}, {\"id\": 7, \"description\": \"Create detailed benchmarking document to substantiate key performance claims about the PCM technology.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 8, \"description\": \"Initiate text-based collaboration with a user leveraging 4 H100 GPUs to test PCM in a high-compute ML environment, documenting outcomes for future content.\", \"deadline\": \"2025-05-15\", \"status\": \"Completed\"}, {\"id\": 9, \"description\": \"Create a text-based demo with visuals (screenshots or diagrams) showcasing PCM's use case for ML beginners, such as managing a simple experiment with self-education templates.\", \"deadline\": \"2025-04-20\", \"status\": \"Completed\"}, {\"id\": 10, \"description\": \"Create a standalone X post summarizing the discussion with Andrew Jefferson (@EastlondonDev) on AI and neurointerfaces, including a link to PCM's GitHub repo to increase visibility.\", \"deadline\": \"2025-04-12\", \"status\": \"Completed\"}, {\"id\": 11, \"description\": \"Monitor the performance of the X post about the *Knowledge Science* podcast feature (posted on April 10, 2025) and update audience metrics with impressions, engagements, and follower growth.\", \"deadline\": \"2025-04-17\", \"status\": \"Planned\"}, {\"id\": 12, \"description\": \"Review the NeuroPlay website (neuroassist.tech) to extract technical details about the NeuroPlay 8Cap, including SDK/API availability, data format, real-time streaming, OS compatibility, and usage restrictions.\", \"deadline\": \"2025-04-15\", \"status\": \"Completed\"}, {\"id\": 13, \"description\": \"Follow up with NeuroPlay if the website does not provide sufficient technical details for integrating the NeuroPlay 8Cap with PCM, requesting specific answers to the original inquiry.\", \"deadline\": \"2025-04-20\", \"status\": \"Not Needed\"}, {\"id\": 14, \"description\": \"Purchase the NeuroPlay 8Cap device for integration with PCM, ensuring delivery and setup.\", \"deadline\": \"2025-04-20\", \"status\": \"In progress\"}, {\"id\": 15, \"description\": \"Begin integrating the NeuroPlay 8Cap with PCM using the NeuroPlayPro API, starting with accessing raw EEG data and pre-processed metrics (meditation, concentration) for personalization.\", \"deadline\": \"2025-05-15\", \"status\": \"Planned\"}, {\"id\": 16, \"description\": \"Create and submit a high-quality article for the Habr 'Сезон Open Source' contest demonstrating NeuroPlay 8Cap integration with PCM, aiming to win first place.\", \"deadline\": \"2025-05-22\", \"status\": \"Planned\"}, {\"id\": 17, \"description\": \"Regularly monitor and analyze other contest entries with the tag # Сезон open source to identify top competitors, successful formats, and content strategies.\", \"deadline\": \"2025-05-22\", \"status\": \"Planned\"}]",
+        "reason": "Added a new short-term goal related to monitoring and analyzing competitors in the Habr contest to develop competitive advantage.",
+        "timestamp": "2025-04-11T08:32:02.250Z"
+      },
+      {
+        "path": "goals.short_term",
+        "previous_value": [
+          {
+            "id": 1,
+            "description": "Publish a post on X about the first donation to attract more supporters.",
+            "deadline": "2025-04-07",
+            "status": "In progress"
+          },
+          {
+            "id": 2,
+            "description": "Create and publish a new context template for automation of programming tasks by the end of April 2025.",
+            "deadline": "2025-04-30",
+            "status": "Planned"
+          },
+          {
+            "id": 3,
+            "description": "Enhance GitHub documentation with visual examples showing PCM's integration with Claude and other AI platforms.",
+            "deadline": "2025-04-15",
+            "status": "In progress"
+          },
+          {
+            "id": 4,
+            "description": "Publish announcement about PCM neurointerface capabilities on X during Thursday peak engagement window, highlighting Muse, EMOTIV, and OpenBCI integrations.",
+            "deadline": "2025-04-11",
+            "status": "Planned"
+          },
+          {
+            "id": 5,
+            "description": "Create and publish content highlighting neurological interface integration and educational use cases on Habr and Reddit.",
+            "deadline": "2025-04-20",
+            "status": "Planned"
+          },
+          {
+            "id": 6,
+            "description": "Create a Habr article focusing on framework integration with neural interfaces, which has shown 9-16% engagement rates on X.",
+            "deadline": "2025-04-25",
+            "status": "Planned"
+          },
+          {
+            "id": 7,
+            "description": "Create detailed benchmarking document to substantiate key performance claims about the PCM technology.",
+            "deadline": "2025-04-20",
+            "status": "Planned"
+          },
+          {
+            "id": 8,
+            "description": "Initiate text-based collaboration with a user leveraging 4 H100 GPUs to test PCM in a high-compute ML environment, documenting outcomes for future content.",
+            "deadline": "2025-05-15",
+            "status": "In progress"
+          },
+          {
+            "id": 9,
+            "description": "Create a text-based demo with visuals (screenshots or diagrams) showcasing PCM's use case for ML beginners, such as managing a simple experiment with self-education templates.",
+            "deadline": "2025-04-20",
+            "status": "Completed (fulfilled by video demo creation on April 12, 2025)"
+          },
+          {
+            "id": 10,
+            "description": "Create a standalone X post summarizing the discussion with Andrew Jefferson (@EastlondonDev) on AI and neurointerfaces, including a link to PCM's GitHub repo to increase visibility.",
+            "deadline": "2025-04-12",
+            "status": "Completed"
+          },
+          {
+            "id": 11,
+            "description": "Monitor the performance of the X post about the *Knowledge Science* podcast feature (posted on April 10, 2025) and update audience metrics with impressions, engagements, and follower growth.",
+            "deadline": "2025-04-17",
+            "status": "Planned"
+          },
+          {
+            "id": 12,
+            "description": "Review the NeuroPlay website (neuroassist.tech) to extract technical details about the NeuroPlay 8Cap, including SDK/API availability, data format, real-time streaming, OS compatibility, and usage restrictions.",
+            "deadline": "2025-04-15",
+            "status": "Completed"
+          },
+          {
+            "id": 13,
+            "description": "Follow up with NeuroPlay if the website does not provide sufficient technical details for integrating the NeuroPlay 8Cap with PCM, requesting specific answers to the original inquiry.",
+            "deadline": "2025-04-20",
+            "status": "Not Needed"
+          },
+          {
+            "id": 14,
+            "description": "Purchase the NeuroPlay 8Cap device for integration with PCM, ensuring delivery and setup.",
+            "deadline": "2025-04-20",
+            "status": "Planned"
+          },
+          {
+            "id": 15,
+            "description": "Begin integrating the NeuroPlay 8Cap with PCM using the NeuroPlayPro API, starting with accessing raw EEG data and pre-processed metrics (meditation, concentration) for personalization.",
+            "deadline": "2025-05-15",
+            "status": "Planned"
+          }
+        ],
+        "new_value": "[{\"id\": 1, \"description\": \"Publish a post on X about the first donation to attract more supporters.\", \"deadline\": \"2025-04-07\", \"status\": \"Completed\"}, {\"id\": 2, \"description\": \"Create and publish a new context template for automation of programming tasks by the end of April 2025.\", \"deadline\": \"2025-04-30\", \"status\": \"Planned\"}, {\"id\": 3, \"description\": \"Enhance GitHub documentation with visual examples showing PCM's integration with Claude and other AI platforms.\", \"deadline\": \"2025-04-15\", \"status\": \"In progress\"}, {\"id\": 4, \"description\": \"Publish announcement about PCM neurointerface capabilities on X during Thursday peak engagement window, highlighting Muse, EMOTIV, and OpenBCI integrations.\", \"deadline\": \"2025-04-11\", \"status\": \"Planned\"}, {\"id\": 5, \"description\": \"Create and publish content highlighting neurological interface integration and educational use cases on Habr and Reddit.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 6, \"description\": \"Create a Habr article focusing on framework integration with neural interfaces, which has shown 9-16% engagement rates on X.\", \"deadline\": \"2025-04-25\", \"status\": \"Planned\"}, {\"id\": 7, \"description\": \"Create detailed benchmarking document to substantiate key performance claims about the PCM technology.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 8, \"description\": \"Initiate text-based collaboration with a user leveraging 4 H100 GPUs to test PCM in a high-compute ML environment, documenting outcomes for future content.\", \"deadline\": \"2025-05-15\", \"status\": \"Completed\"}, {\"id\": 9, \"description\": \"Create a text-based demo with visuals (screenshots or diagrams) showcasing PCM's use case for ML beginners, such as managing a simple experiment with self-education templates.\", \"deadline\": \"2025-04-20\", \"status\": \"Completed\"}, {\"id\": 10, \"description\": \"Create a standalone X post summarizing the discussion with Andrew Jefferson (@EastlondonDev) on AI and neurointerfaces, including a link to PCM's GitHub repo to increase visibility.\", \"deadline\": \"2025-04-12\", \"status\": \"Completed\"}, {\"id\": 11, \"description\": \"Monitor the performance of the X post about the *Knowledge Science* podcast feature (posted on April 10, 2025) and update audience metrics with impressions, engagements, and follower growth.\", \"deadline\": \"2025-04-17\", \"status\": \"Planned\"}, {\"id\": 12, \"description\": \"Review the NeuroPlay website (neuroassist.tech) to extract technical details about the NeuroPlay 8Cap, including SDK/API availability, data format, real-time streaming, OS compatibility, and usage restrictions.\", \"deadline\": \"2025-04-15\", \"status\": \"Completed\"}, {\"id\": 13, \"description\": \"Follow up with NeuroPlay if the website does not provide sufficient technical details for integrating the NeuroPlay 8Cap with PCM, requesting specific answers to the original inquiry.\", \"deadline\": \"2025-04-20\", \"status\": \"Not Needed\"}, {\"id\": 14, \"description\": \"Purchase the NeuroPlay 8Cap device for integration with PCM, ensuring delivery and setup.\", \"deadline\": \"2025-04-20\", \"status\": \"In progress\"}, {\"id\": 15, \"description\": \"Begin integrating the NeuroPlay 8Cap with PCM using the NeuroPlayPro API, starting with accessing raw EEG data and pre-processed metrics (meditation, concentration) for personalization.\", \"deadline\": \"2025-05-15\", \"status\": \"Planned\"}, {\"id\": 16, \"description\": \"Create and submit a high-quality article for the Habr 'Сезон Open Source' contest demonstrating NeuroPlay 8Cap integration with PCM, aiming to win first place.\", \"deadline\": \"2025-05-22\", \"status\": \"Planned\"}]",
+        "reason": "Added new short-term goal about participating in the Habr 'Сезон Open Source' contest with the aim of winning first place with an article about NeuroPlay 8Cap integration with PCM.",
+        "timestamp": "2025-04-11T08:29:54.088Z"
+      },
+      {
+        "path": "project_info.key_integrations[3]",
+        "new_value": "{\"name\": \"NeuroPlay\", \"status\": \"Ordered\", \"description\": \"8Cap EEG device with API access to raw EEG data, rhythms, and pre-processed metrics ordered on April 10, 2025\"}",
+        "reason": "Adding NeuroPlay as a key integration since it has been ordered as confirmed by the email from the project manager at NeuroPlay.",
+        "timestamp": "2025-04-11T08:23:04.381Z"
+      },
+      {
+        "path": "goals.short_term[8].status",
+        "new_value": "Completed",
+        "reason": "Initiated text-based collaboration with user leveraging 4 H100 GPUs through video demo creation, explaining how PCM can assist with LLM training tasks.",
+        "timestamp": "2025-04-11T07:53:24.054Z"
+      },
+      {
+        "path": "goals.short_term[0].status",
+        "new_value": "Completed",
+        "reason": "Post about the first donation was published on X on April 6, 2025, with 62 views, 1 like, and 1 bookmark so far.",
+        "timestamp": "2025-04-11T07:53:21.080Z"
+      },
+      {
+        "path": "goals.short_term[14].status",
+        "new_value": "In progress",
+        "reason": "Updated to reflect that the NeuroPlay 8Cap has been ordered for 101700 RUB, but not yet delivered and set up.",
+        "timestamp": "2025-04-11T07:50:39.851Z"
+      },
+      {
+        "path": "goals.short_term[9].status",
+        "new_value": "Completed",
+        "reason": "The text-based demo with visuals has been fulfilled by creating the video demo with text narration that showcases PCM's use case for ML beginners.",
+        "timestamp": "2025-04-11T07:49:04.215Z"
+      },
+      {
+        "path": "goals.medium_term[4].status",
+        "new_value": "Completed",
+        "reason": "The video demo for the user with 4 H100 GPUs has been created, showing how PCM can help with training an LLM.",
+        "timestamp": "2025-04-11T07:49:01.416Z"
+      },
+      {
+        "path": "project_info.current_status",
+        "previous_value": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details.",
+        "new_value": "Released Personal Context Framework v1.0.2 and PCT-MCP Server in early April 2025. Added self-improving context framework with complete implementation and documentation. Project has gained traction with AI integration partners (Manus AI) and neural interface compatibility (Muse, EMOTIV, OpenBCI). Received first donation (2 TON, $6.58) on April 6, 2025. Developed and begun implementing a multi-platform promotion strategy. Currently collaborating with a user to demonstrate PCM's application in training an LLM on 4 H100 GPUs, with a video demo in progress (due April 12, 2025). Engaged in a high-visibility discussion on X with Andrew Jefferson (@EastlondonDev) about the future of AI and neurointerface integrations, increasing project exposure. PCM was featured on the *Knowledge Science* podcast (Episode 198) by Sigurd Schacht and Carsten Lanquillon, discussing its potential in NLP and education. Created a short English summary podcast using NotebookLM and shared it on X on April 10, 2025, tagging the hosts (@drschacht, @lanqui) to increase visibility. Received a response from NeuroPlay on April 10, 2025, regarding the integration of the NeuroPlay 8Cap, directing to their website for technical details. Reviewed the NeuroPlay website and documentation on April 11, 2025, confirming the NeuroPlay 8Cap's suitability for PCM integration, with API access to raw EEG data, rhythms, and pre-processed metrics (meditation, concentration). Planning to purchase the NeuroPlay 8Cap and begin integration.",
+        "reason": "Updated current status to reflect the completion of the review of the NeuroPlay website and the decision to proceed with the NeuroPlay 8Cap integration.",
+        "timestamp": "2025-04-11T14:00:00Z"
+      },
+      {
+        "path": "project_info.milestones[3].description",
+        "previous_value": "Develop additional integrations with EEG-based neural interface providers to enhance AI personalization capabilities.",
+        "new_value": "Develop additional integrations with EEG-based neural interface providers to enhance AI personalization capabilities. Confirmed compatibility with NeuroPlay 8Cap and planning integration.",
+        "reason": "Updated milestone description to reflect progress on the NeuroPlay 8Cap integration.",
+        "timestamp": "2025-04-11T14:00:00Z"
+      },
+      {
+        "path": "goals.short_term[11].status",
+        "previous_value": "Planned",
+        "new_value": "Completed",
+        "reason": "Marked the short-term goal to review the NeuroPlay website as completed, as the technical details were successfully extracted.",
+        "timestamp": "2025-04-11T14:00:00Z"
+      },
+      {
+        "path": "goals.short_term[12].status",
+        "previous_value": "Planned",
+        "new_value": "Not Needed",
+        "reason": "Marked the short-term goal to follow up with NeuroPlay as not needed, since the website provided sufficient technical details.",
+        "timestamp": "2025-04-11T14:00:00Z"
+      },
+      {
+        "path": "goals.short_term",
+        "previous_value": "[...previous short-term goals...]",
+        "new_value": "[...previous short-term goals..., {\"id\": 14, \"description\": \"Purchase the NeuroPlay 8Cap device for integration with PCM, ensuring delivery and setup.\", \"deadline\": \"2025-04-20\", \"status\": \"Planned\"}, {\"id\": 15, \"description\": \"Begin integrating the NeuroPlay 8Cap with PCM using the NeuroPlayPro API, starting with accessing raw EEG data and pre-processed metrics (meditation, concentration) for personalization.\", \"deadline\": \"2025-05-15\", \"status\": \"Planned\"}]",
+        "reason": "Added new short-term goals to purchase the NeuroPlay 8Cap and begin API integration with PCM.",
+        "timestamp": "2025-04-11T14:00:00Z"
+      },
+      {
+        "path": "metadata.version",
+        "previous_value": "1.3",
+        "new_value": "1.4",
+        "reason": "Incremented version to reflect significant updates to the context file.",
+        "timestamp": "2025-04-11T14:00:00Z"
+      },
+      {
+        "path": "metadata.last_updated",
+        "previous_value": "2025-04-10T14:00:00Z",
+        "new_value": "2025-04-11T14:00:00Z",
+        "reason": "Updated timestamp to reflect the latest changes after reviewing the NeuroPlay website and planning the integration.",
+        "timestamp": "2025-04-11T14:00:00Z"
       }
     ]
   }
