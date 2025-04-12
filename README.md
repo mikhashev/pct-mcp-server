@@ -219,7 +219,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is released under the [LICENSE](LICENSE) that covers the project.
+This project is released under the MIT License - See [LICENSE](LICENSE) that covers the project.
 
 ## Acknowledgments
 
