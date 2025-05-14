@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mikhashev-pct-mcp-server-badge.png)](https://mseep.ai/app/mikhashev-pct-mcp-server)
+
 # Personal Context Technology MCP Server
 
 This repository implements a server for [Personal Context Technology (PCT)](https://github.com/mikhashev/personal-context-manager) using the Model Context Protocol (MCP). It enables AI assistants like Claude to access and update your personalized context data, creating persistent memory between sessions.
